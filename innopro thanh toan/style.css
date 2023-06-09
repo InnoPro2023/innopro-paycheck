@@ -26,26 +26,26 @@ body{
 }   
 .second{
     margin-top :100px;
-    height:690px;
-    margin-right:6vw;
-    margin-left:6vw;
+    height:790px;
     display:flex;
+    position: relative;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 .thong-tin{
     position:relative;
     height:100%;
     width:40vw;
-    margin-right:70px;
+    margin-right:5vw;
 }
 .don-hang{
-    height:100%;
-    border:solid;
-    width:41vw;
+    height:80%;
+    width:45%;
     border: 1px solid #BEBEBE;
     border-radius: 12px;
     box-sizing: border-box;
-    position:relative;
-}
+    position: relative;
+  }
 .dia-chi,.thanh-toan{
     margin-top:2.2vw;
     height:5vw;
@@ -111,17 +111,16 @@ body{
 .phuong-thuc button:hover{
     cursor: pointer;
 }
-.hehe{
-    margin-top:1vw;
+.HAHA{
+  margin-top:2vw;
+  display:flex;
+  justify-content: space-between;
 }
 .b2{
-    width:9vw;
+    width:12vw;
     height:auto;
 }
 .b1{
-    position:absolute;
-    margin-top:1vw;
-    right:0;
     border:none;
     background-color:white;
     width:fit-content;
@@ -132,11 +131,11 @@ body{
 }
 .frame1 {
     margin-top:1vw;
-    margin-left:1.8vw;
-    margin-right:1.8vw;
     max-height: 450px;
     overflow-y: auto;
     position:relative;
+    margin-left:1.8vw;
+    margin-right:1.8vw;
   }
   
   .sanpham1 {
@@ -154,50 +153,69 @@ body{
     margin-bottom:1vw;
     margin-left:1vw;
     margin-right:0.6vw;
+    position: relative;
   }
   .ps{
     width:13vw;
+    position: relative;
   }
   .product-name{
     font-size:2.2vw;
     margin-left:0.7vw;
     margin-top:1.5vw;
+    position: relative;
+    width:11vw;
   }
   .khoiluong{
     margin-left:1vw;
     font-size:1.2vw;
     margin-top:3.1vw;
+    position: relative;
+    width:20vw;
   }
   .soluong{
     font-size:1.2vw;
     margin-top:0.5vw;
     margin-left:1vw;
+    position: relative;
+    width:20vw;
   }
   .price{
     width:11vw;
     height:5vw;
     margin-top:0.6vw;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(167, 8, 8);
+    font-size:1.9vw;
   }
   .vector-30{
     width:40vw;
     height:0.2vw;
     margin-top:20px;
+    position: relative;
   }
   .tong{
     width:5vw;
     margin-left:2.2vw;
+    position: relative;
   }
   .hiha{
     margin-top:1.2vw;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
   }
   .tonggia{
     margin-right:2.2vw;
     font-size:2vw;
+    position: relative;
   }
   .third{
     margin-top:6vw;
     width:100%;
+    position: relative;
   }
